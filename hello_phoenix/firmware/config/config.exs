@@ -27,8 +27,8 @@ config :nerves_network, :default,
     ipv4_address_method: :dhcp
   ]
 
-config :firmware, interface: :eth0
-# config :firmware, interface: :wlan0
+# config :firmware, interface: :eth0
+config :firmware, interface: :wlan0
 # config :firmware, interface: :usb0
 
 config :ui, Ui.Endpoint,

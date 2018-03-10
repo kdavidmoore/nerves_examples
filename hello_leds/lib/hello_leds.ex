@@ -7,8 +7,8 @@ defmodule HelloLeds do
   """
 
   # Durations are in milliseconds
-  @on_duration 200
-  @off_duration 200
+  @on_duration 1000
+  @off_duration 100
 
   alias Nerves.Leds
   require Logger
